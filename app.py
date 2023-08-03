@@ -9,9 +9,10 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import openai 
+import langchain
 from PIL import Image
 
 
 
-#st.title('My app')
+st.title('My app')
 
