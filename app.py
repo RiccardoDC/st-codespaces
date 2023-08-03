@@ -11,15 +11,6 @@ import pandas as pd
 import openai 
 import langchain
 
-from langchain.document_loaders import  TextLoader
-from langchain.document_loaders import DirectoryLoader
-
-from langchain.document_loaders import OnlinePDFLoader
-
-from langchain.indexes import VectorstoreIndexCreator
-from langchain.llms import OpenAI
-
-
 
 st.title('My app')
 
